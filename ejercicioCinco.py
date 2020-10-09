@@ -2,7 +2,7 @@ numeroUno = input()
 numeroDos = input()
 numeroTres = input()
 
-if(numeroUno < 0):
+if numeroUno < 0:
     producto = numeroUno * numeroDos * numeroTres
     print (producto)
 else:
